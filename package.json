@@ -11,6 +11,7 @@
     "start": "vite"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@eslint/js": "^9.17.0",
     "@tanstack/router-plugin": "^1.91.1",
     "@types/react": "^18.3.3",
