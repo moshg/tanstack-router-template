@@ -14,6 +14,11 @@ export default [
 		rules: {
 			...pluginReactHooks.configs.recommended.rules,
 		},
+		settings: {
+			react: {
+				version: "detect"
+			}
+		}
 	},
 	{ languageOptions: { globals: globals.browser } },
 	pluginJs.configs.recommended,
